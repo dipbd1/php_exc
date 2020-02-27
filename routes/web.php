@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
+
 Route::get('/hello', function () {
     return "Hello world";
 });
@@ -35,7 +35,3 @@ Route::get('/world', 'HelloController@hello');
 Route::get('/add', 'AddController@index');
 Route::get('/about', ['uses' => 'AboutController@about', 'as' => 'about' ]);
 Route::view('/contact', 'contact');
-
-=======
->>>>>>> 1dc216316c08b8f57c3d65c2164f60cad41175fc
-

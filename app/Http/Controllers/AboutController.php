@@ -9,6 +9,8 @@ class AboutController extends Controller
     //
     public function about()
     {
-        return view('about');
+        $first_name = "Ariyan";
+        $last_name  = "Kazi";
+        return view('about', compact('first_name', 'last_name'));
     }
 }
